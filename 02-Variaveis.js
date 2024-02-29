@@ -16,7 +16,7 @@ var nome = "José";
 var nome = "Pedro";
 
 //Declarando uma constante. Uma constante deve ser declarada e inicializada.
-const url = "https://www.devmedia.com.br/"; // Constante, não pode ser alterada após a declaração.
+const url = "https://www.ifro.edu.br/"; // Constante, não pode ser alterada após a declaração.
 
 const aula = "JavaScript";
 aula = "JS";  // Erro! Ao tentarmos alterar uma constante, recebemos um erro no console.
