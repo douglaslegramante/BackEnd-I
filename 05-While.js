@@ -1,4 +1,3 @@
-
 //Sintaxer básica
 while (condicao) {
     //declaração
@@ -46,11 +45,12 @@ while (ct > 0) {
     ct--;
 }
 
-
+//Sintaxe com break
 while (true) {
     if (algoForVerdadeiro) break
 }
 
+//Sintaxe com continue
 while (true) {
     if (algoForVerdadeiro) continue
 }
