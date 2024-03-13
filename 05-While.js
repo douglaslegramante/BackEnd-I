@@ -45,12 +45,12 @@ while (ct > 0) {
     ct--;
 }
 
-//Sintaxe com break
-while (true) {
-    if (algoForVerdadeiro) break
-}
+//Percorrendo Array com while
+let paises = ["Brasil", "Suíça", "França", "Japão"];
 
-//Sintaxe com continue
-while (true) {
-    if (algoForVerdadeiro) continue
+let ind = 0;
+
+while (ind < paises.length) {
+    console.log(paises[ind]);
+    ind++;
 }
