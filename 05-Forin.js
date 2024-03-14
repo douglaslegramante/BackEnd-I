@@ -1,10 +1,12 @@
 //Sintaxe for in
+/*
 for (const key in object) {
     if (Object.hasOwnProperty.call(object, key)) {
         const element = object[key];
         
     }
 }
+*/
 
 //Exemplo de utilização do for...in 
 const pessoa = {
@@ -13,10 +15,10 @@ const pessoa = {
   profissao: "Desenvolvedor",
 };
 
-for (let key in pessoa) {
-  console.log(`${key} : ${pessoa[key]}`);
+for (let dados in pessoa) {
+  console.log(`${dados}: ${pessoa[dados]}`);
 }
-
+/*
 //Mais um exemplo
 let aluno = {
   nome: "Marcos",
@@ -44,3 +46,4 @@ for ( let propriedade in carro ) {
         console.log(propriedade + ": " + carro[propriedade]);
     }
 }
+*/

@@ -1,7 +1,7 @@
 //Sintaxe basica do for
-for (let index = 0; index < array.length; index++) {
-  const element = array[index];
-}
+//for (let index = 0; index < array.length; index++) {
+  //const element = array[index];
+//}
 
 //Exemplo tabuada
 let multiplicador = 8;

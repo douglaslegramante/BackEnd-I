@@ -1,7 +1,7 @@
 //Sintaxe da instrução do while
-do {
+//do {
     //declaração
-} while (condition);
+//} while (condition);
 
 //Exemplo de utilização:
 let contador = 0;

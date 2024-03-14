@@ -1,7 +1,7 @@
 //Sintaxer básica
-while (condicao) {
+//while (condicao) {
     //declaração
-}
+//}
 
 //Exemplo de uso do while
 let contador = 0;
