@@ -2,7 +2,7 @@
 // O programa deve fornecer dicas sobre se o número digitado é maior ou menor que o número aleatório.
 // O jogo deve continuar até que o usuário adivinhe corretamente.
 
-import rl, { questionInt } from 'readline-sync';
+import rl from 'readline-sync';
 
 // Gerar um número aleatório entre 1 e 100
 const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
@@ -13,7 +13,7 @@ let tentativa;
 // Iniciar o loop do-while
 do {
     // Solicitar ao usuário que faça uma tentativa
-    tentativa = rl.questionInt("Tente adivinhar o número (entre 1 e 100):");
+    tentativa = rl.questionInt("Tente adivinhar o número (entre 1 e 100): ");
 
     // Verificar se a tentativa está correta, maior ou menor que o número aleatório
     if (tentativa === numeroAleatorio) {

@@ -36,7 +36,7 @@ while (contadorAlunos <= numAlunos) {
     // Loop para ler as notas dos 4 bimestres de cada aluno
     while (contadorBimestres <= 4) {
         let nota = rl.questionInt(`Digite a nota do ${contadorBimestres}º bimestre para o aluno ${contadorAlunos}: `);
-        somaNotas += nota;
+        somaNotas = somaNotas + nota;
         contadorBimestres++;
     }
 
