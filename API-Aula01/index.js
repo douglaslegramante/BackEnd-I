@@ -8,7 +8,8 @@ const app = express();
 // Quando o caminho '/' for acessado, a função de callback será executada
 app.get('/', (req, res) => {
     // Envia a resposta 'Hello, World!' ao cliente
-    res.send('Hello, World!');
+    let mensagem = ({mensagem:'Olá, Mundo!'});
+    res.json(mensagem);
 });
 
 // Inicia o servidor na porta 8080
